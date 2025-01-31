@@ -27,8 +27,8 @@ $kubectl version --client
 
 Aqui estarei instalando o KIND. Mas, importante salientar que existem o `minikube` que eh o mais utilizado comumente:
 
-`
+```
 $curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.14/kind-linux-amd64
 $chmod +x ./kind
 $sudo mv ./kind /usr/local/bin/kind
-`
+```
